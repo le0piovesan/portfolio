@@ -1,10 +1,11 @@
 import React from "react";
-import Header from "@/components/common/Header";
+import Header from "@/components/sections/Header";
+import Main from "@/components/sections/Main";
 
 const Home: React.FC = () => (
   <div>
     <Header />
-    <main></main>
+    <Main />
   </div>
 );
 
