@@ -4,7 +4,7 @@ import { FileText, Github, Linkedin, Mail } from "lucide-react";
 
 const IntroLinks: React.FC = () => (
   <div className="header_links pt-10 text-center">
-    <IconLink href="../assets/resume.pdf">
+    <IconLink href="/files/resume.pdf">
       <FileText />
     </IconLink>
     <IconLink href="https://github.com/le0piovesan">
