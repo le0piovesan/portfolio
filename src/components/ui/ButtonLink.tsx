@@ -4,16 +4,18 @@ interface ButtonLinkProps {
   href: string;
   children: string;
   secondary?: boolean;
+  nav?: boolean;
 }
 
 const ButtonLink: React.FC<ButtonLinkProps> = ({
   href,
   children,
   secondary,
+  nav,
 }) => (
   <a
     href={href}
-    target="_blank"
+    target={nav ? "_self" : "_blank"}
     rel="noopener noreferrer"
     className={`${secondary ? `px-0` : `rounded-md px-5 text-xl `} no-highlight 
     font-bold text-green-800 transition-colors 
