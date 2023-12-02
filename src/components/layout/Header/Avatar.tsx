@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Me from "../../../assets/profile/helloitsme.jpg";
+import Me from "../../../../public/assets/profile/helloitsme.jpg";
 
 const Avatar: React.FC = () => (
   <div className="relative pr-0 md:pr-8">
