@@ -1,0 +1,279 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Algorithms",
+      "type": "Study",
+      "tags": [
+        "study",
+        "research"
+      ],
+      "description": "Bunch of algorithms exercises that I've solved by using C language during graduation.",
+      "link": {
+        "icon": "fa fa-code",
+        "label": "code",
+        "url": "https://github.com/le0piovesan/algorithms"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Data Structures",
+      "type": "Study",
+      "tags": [
+        "study",
+        "research"
+      ],
+      "description": "Data structures such as binary trees, pointers, dynamic memory altype, recursion, etc.",
+      "link": {
+        "icon": "fa fa-code",
+        "label": "code",
+        "url": "https://github.com/le0piovesan/data-structures"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Design Patterns",
+      "type": "Study",
+      "tags": [
+        "study",
+        "research"
+      ],
+      "description": "Some design patterns I've studied/used during graduation, done with Java.",
+      "link": {
+        "icon": "fa fa-code",
+        "label": "code",
+        "url": "https://github.com/le0piovesan/design-patterns"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Solar Tracker",
+      "type": "Project",
+      "tags": [
+        "study",
+        "arduino",
+        "research",
+        "automation",
+        "back-end"
+      ],
+      "description": "Solar Tracker built with a 3d Printer, using solar panels and servos. Code written in Arduino.",
+      "link": {
+        "icon": "fa fa-code",
+        "label": "private",
+        "url": ""
+      },
+      "images": [
+        {
+          "src": "/assets/images/arduino/arduino1.png",
+          "alt": "Project finished with it's pieces assembled"
+        },
+        {
+          "src": "/assets/images/arduino/arduino2.png",
+          "alt": "Project components"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Renewable Energy Fund App",
+      "type": "Project",
+      "tags": [
+        "challenge",
+        "sustainable",
+        "front-end",
+        "mobile"
+      ],
+      "description": "This project is based on the idea of creating a renewable energy investment app and was made within 48hrs using React Native, Expo, Redux, TypeScript and Styled-components.",
+      "link": {
+        "icon": "fa fa-code",
+        "label": "code",
+        "url": "https://github.com/le0piovesan/typed-renewable-energy-fund-app"
+      },
+      "images": [
+        {
+          "src": "/assets/images/renew/renew1.png",
+          "alt": "Login page"
+        },
+        {
+          "src": "/assets/images/renew/renew2.png",
+          "alt": "Home page with lightmode"
+        },
+        {
+          "src": "/assets/images/renew/renew3.png",
+          "alt": "Theme page switch"
+        },
+        {
+          "src": "/assets/images/renew/renew4.png",
+          "alt": "Home page with darkmode"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "FugaPet",
+      "type": "Work",
+      "tags": [
+        "work",
+        "qrcode",
+        "front-end",
+        "back-end",
+        "mobile",
+        "database"
+      ],
+      "description": "I've used mostly React Native, Expo, Styled Components to build the mobile application, Firebase for functions and Cloud Firestore Database for the back, Git and Gitlab for version control.",
+      "link": {
+        "icon": "fa fa-code",
+        "label": "private",
+        "url": ""
+      },
+      "images": [
+        {
+          "src": "/assets/images/fugapet/fugapet1.png",
+          "alt": "App screens display"
+        },
+        {
+          "src": "/assets/images/fugapet/fugapet2.png",
+          "alt": "Design system chart"
+        },
+        {
+          "src": "/assets/images/fugapet/fugapet3.png",
+          "alt": "Typography system and some components"
+        },
+        {
+          "src": "/assets/images/fugapet/fugapet4.png",
+          "alt": "Timeline feed"
+        },
+        {
+          "src": "/assets/images/fugapet/fugapet5.png",
+          "alt": "Pet profile pages"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Qualicorp",
+      "type": "Work",
+      "tags": [
+        "work",
+        "healthcare",
+        "front-end",
+        "back-end",
+        "database"
+      ],
+      "description": "One of the leading, full-service healthcare benefits administrators and health management services providers in Brazil. I've used mostly Node.js to develop and maintain the countless API's available in a microservices architecture, Neo4j and Oracle SQL database, Vue.js for the front-end, Azure for pipelines and TFS/Git for repo/version control.",
+      "link": {
+        "icon": "fa fa-code",
+        "label": "private",
+        "url": ""
+      }
+    },
+    {
+      "id": 8,
+      "title": "Full Stack CRUD Test",
+      "type": "Project",
+      "tags": [
+        "challenge",
+        "crud",
+        "front-end",
+        "back-end",
+        "database"
+      ],
+      "description": "CRUD test using Node.js, Vue.js and NEO4J. It has been a rush trying to migrate from React to Vue and also learning a new graph database such as Neo4j, but it all worth the effort in the end.",
+      "link": {
+        "icon": "fa fa-code",
+        "label": "code",
+        "url": "https://github.com/le0piovesan/qualicorp-hiring-test"
+      }
+    },
+    {
+      "id": 9,
+      "title": "Manager/Technician/Tasks API",
+      "type": "Project",
+      "tags": [
+        "challenge",
+        "rest",
+        "back-end",
+        "database"
+      ],
+      "description": "API integration exercise built from scratch in order to study and use Node.js, MySQL, Redis, Docker and Kubernetes.",
+      "link": {
+        "icon": "fa fa-code",
+        "label": "code",
+        "url": "https://github.com/le0piovesan/sword-test-api"
+      }
+    },
+    {
+      "id": 10,
+      "title": "NLW Timeline",
+      "type": "Project",
+      "tags": [
+        "study",
+        "timeline",
+        "front-end",
+        "back-end",
+        "database",
+        "mobile"
+      ],
+      "description": "A timeline with your moments. Built with React, Next, Next Auth, Prisma, TailWindCSS, Expo, Typescript, Node, Fastify and Vercel.",
+      "link": {
+        "icon": "fa fa-code",
+        "label": "under development",
+        "url": ""
+      },
+      "images": [
+        {
+          "src": "/assets/images/nlw/nlw1.png",
+          "alt": "Web home page"
+        },
+        {
+          "src": "/assets/images/nlw/nlw2.png",
+          "alt": "Mobile pages"
+        },
+        {
+          "src": "/assets/images/nlw/nlw3.png",
+          "alt": "Design system"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Promptopia",
+      "type": "Project",
+      "tags": [
+        "study",
+        "AI",
+        "prompts",
+        "front-end",
+        "back-end"
+      ],
+      "description": "A follow-in a class project that I am doing with Next.js and Google Auth that allows people to sign in and share AI prompts to use.",
+      "link": {
+        "icon": "fa fa-code",
+        "label": "under development",
+        "url": ""
+      },
+      "images": [
+        {
+          "src": "/assets/images/promptopia/promptopia1.png",
+          "alt": "Home page listing the latests prompts"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Portfolio",
+      "type": "Project",
+      "tags": [
+        "study",
+        "front-end",
+        "hire me!"
+      ],
+      "description": "This very own page, built with Next.js, TypeScript and TailwindCSS only.",
+      "link": {
+        "icon": "fa fa-code",
+        "label": "code",
+        "url": "https://github.com/le0piovesan/portfolio"
+      }
+    }
+  ]
+}
