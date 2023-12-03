@@ -1,9 +1,5 @@
 import React from "react";
-
-interface IconLinkProps {
-  href: string;
-  children: React.ReactNode;
-}
+import { IconLinkProps } from "@/interfaces/ui/IconLink.types";
 
 const IconLink: React.FC<IconLinkProps> = ({ href, children }) => (
   <span className="mx-4 inline-block">

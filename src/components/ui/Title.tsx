@@ -1,8 +1,5 @@
 import React from "react";
-
-interface TitleProps {
-  children: string;
-}
+import { TitleProps } from "@/interfaces/ui/Title.types";
 
 const Title: React.FC<TitleProps> = ({ children }) => (
   <h2 className="section-title relative mb-2 text-3xl font-bold">
